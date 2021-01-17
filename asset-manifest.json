@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/geoapppage/static/css/main.023933ea.chunk.css",
-    "main.js": "/geoapppage/static/js/main.0b150cac.chunk.js",
-    "main.js.map": "/geoapppage/static/js/main.0b150cac.chunk.js.map",
-    "runtime-main.js": "/geoapppage/static/js/runtime-main.18e35521.js",
-    "runtime-main.js.map": "/geoapppage/static/js/runtime-main.18e35521.js.map",
-    "static/js/2.4ec39f1b.chunk.js": "/geoapppage/static/js/2.4ec39f1b.chunk.js",
-    "static/js/2.4ec39f1b.chunk.js.map": "/geoapppage/static/js/2.4ec39f1b.chunk.js.map",
-    "static/js/3.9fec1d92.chunk.js": "/geoapppage/static/js/3.9fec1d92.chunk.js",
-    "static/js/3.9fec1d92.chunk.js.map": "/geoapppage/static/js/3.9fec1d92.chunk.js.map",
-    "index.html": "/geoapppage/index.html",
-    "static/css/main.023933ea.chunk.css.map": "/geoapppage/static/css/main.023933ea.chunk.css.map",
-    "static/js/2.4ec39f1b.chunk.js.LICENSE.txt": "/geoapppage/static/js/2.4ec39f1b.chunk.js.LICENSE.txt",
-    "static/media/Blocks-1s-200px.b67ad5ee.svg": "/geoapppage/static/media/Blocks-1s-200px.b67ad5ee.svg"
+    "main.css": "/geoapp/static/css/main.023933ea.chunk.css",
+    "main.js": "/geoapp/static/js/main.0b150cac.chunk.js",
+    "main.js.map": "/geoapp/static/js/main.0b150cac.chunk.js.map",
+    "runtime-main.js": "/geoapp/static/js/runtime-main.49843c0f.js",
+    "runtime-main.js.map": "/geoapp/static/js/runtime-main.49843c0f.js.map",
+    "static/js/2.4ec39f1b.chunk.js": "/geoapp/static/js/2.4ec39f1b.chunk.js",
+    "static/js/2.4ec39f1b.chunk.js.map": "/geoapp/static/js/2.4ec39f1b.chunk.js.map",
+    "static/js/3.9fec1d92.chunk.js": "/geoapp/static/js/3.9fec1d92.chunk.js",
+    "static/js/3.9fec1d92.chunk.js.map": "/geoapp/static/js/3.9fec1d92.chunk.js.map",
+    "index.html": "/geoapp/index.html",
+    "static/css/main.023933ea.chunk.css.map": "/geoapp/static/css/main.023933ea.chunk.css.map",
+    "static/js/2.4ec39f1b.chunk.js.LICENSE.txt": "/geoapp/static/js/2.4ec39f1b.chunk.js.LICENSE.txt",
+    "static/media/Blocks-1s-200px.b67ad5ee.svg": "/geoapp/static/media/Blocks-1s-200px.b67ad5ee.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.18e35521.js",
+    "static/js/runtime-main.49843c0f.js",
     "static/js/2.4ec39f1b.chunk.js",
     "static/css/main.023933ea.chunk.css",
     "static/js/main.0b150cac.chunk.js"
