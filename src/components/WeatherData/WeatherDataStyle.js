@@ -5,7 +5,6 @@ const useStyles = createUseStyles ({
         display: 'flex',
         alignItems: 'center',
         paddingTop: "50px",
-
     },
     name: {
         fontSize: "25px",
@@ -16,6 +15,9 @@ const useStyles = createUseStyles ({
     weather: {
         textAlign: "center",
         fontSize: "20px",
+    },
+    temp: {
+        textAlign: "center",
     },
 })
 

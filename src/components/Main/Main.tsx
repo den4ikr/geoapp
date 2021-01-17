@@ -22,6 +22,7 @@ const Main: React.FunctionComponent <MainPropsType> = (props) => {
                 alert ("Enter a city name")
             } else {
                 props.getWeather (query)
+                setQuery ("")
             }
         }
     }

@@ -4,7 +4,6 @@ import { ThunkAction } from 'redux-thunk';
 import { WeatherResponseType } from './../types/types';
 
 const SET_DATA = "SET_DATA"
-const SET_ERROR = "SET_ERROR"
 
 const initialState = {
     data: {} as WeatherResponseType,
@@ -28,13 +27,15 @@ export const actions = {
     setData: (data: WeatherResponseType) => ( { type: SET_DATA, data } as const ),
 }
 
-
-
 type ThunkType = ThunkAction <Promise <void>, AppStateType, unknown, ActionsTypes>
 
 export const getWeather = (q: string): ThunkType => async (dispatch) => {
-    const response = await API.getWeather (q)
-    dispatch ( actions.setData (response.data) )
+    try {
+        const response = await API.getWeather (q)
+        dispatch ( actions.setData (response.data) )
+    } catch (error) {
+       alert ("Please enter an existing city")
+    }
 }
 
 export const getWeatherByCoordinates = (lat: number, lon: number): ThunkType => async (dispatch) => {

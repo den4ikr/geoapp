@@ -6,7 +6,10 @@ type WeatherDataPropsType = {
 }
 
 const WeatherData: React.FunctionComponent <WeatherDataPropsType> = (props) => {
+    
     const s = useStyle ()
+    const temperature = Math.floor ((( props.data.main.temp - 273.15) * 9/5) + 32)
+    const Celsius = Math.ceil (props.data.main.temp - 273.15)
 
     return (
         <div>
@@ -21,6 +24,12 @@ const WeatherData: React.FunctionComponent <WeatherDataPropsType> = (props) => {
             <div className = {s.weather} >
                 {/* @ts-ignore */}
                 {props.data.weather[0].main}
+            </div>
+            <div className = {s.temp} >
+                {temperature}°F
+            </div>
+            <div className = {s.temp} >
+                {Celsius}°C
             </div>
         </div>
     )
