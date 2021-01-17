@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/geoapppage/static/css/main.023933ea.chunk.css",
+    "main.js": "/geoapppage/static/js/main.0b150cac.chunk.js",
+    "main.js.map": "/geoapppage/static/js/main.0b150cac.chunk.js.map",
+    "runtime-main.js": "/geoapppage/static/js/runtime-main.18e35521.js",
+    "runtime-main.js.map": "/geoapppage/static/js/runtime-main.18e35521.js.map",
+    "static/js/2.4ec39f1b.chunk.js": "/geoapppage/static/js/2.4ec39f1b.chunk.js",
+    "static/js/2.4ec39f1b.chunk.js.map": "/geoapppage/static/js/2.4ec39f1b.chunk.js.map",
+    "static/js/3.9fec1d92.chunk.js": "/geoapppage/static/js/3.9fec1d92.chunk.js",
+    "static/js/3.9fec1d92.chunk.js.map": "/geoapppage/static/js/3.9fec1d92.chunk.js.map",
+    "index.html": "/geoapppage/index.html",
+    "static/css/main.023933ea.chunk.css.map": "/geoapppage/static/css/main.023933ea.chunk.css.map",
+    "static/js/2.4ec39f1b.chunk.js.LICENSE.txt": "/geoapppage/static/js/2.4ec39f1b.chunk.js.LICENSE.txt",
+    "static/media/Blocks-1s-200px.b67ad5ee.svg": "/geoapppage/static/media/Blocks-1s-200px.b67ad5ee.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18e35521.js",
+    "static/js/2.4ec39f1b.chunk.js",
+    "static/css/main.023933ea.chunk.css",
+    "static/js/main.0b150cac.chunk.js"
+  ]
+}
